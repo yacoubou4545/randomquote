@@ -1,0 +1,68 @@
+* { 
+	box-sizing: border-box;
+}
+
+
+body{
+    margin-top:70px;
+   background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.7567226719789478) 0%, rgba(201,184,200,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+.container{
+    background-color: #d1c5e4;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%238c5fd5' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+max-height: 90vh;
+width: 60%;
+height: 350px; 
+margin: 20px auto;
+border-radius: 20px;
+border: 2px solid  #333;
+padding-top: 10px;
+box-shadow: 0px -20px 10px 15px rgba(15, 15, 15, 0.1)
+
+}
+
+
+.child-container, button{
+    /* margin-top: 50px;*/
+    font-size: 1.5rem;
+    font-weight: 500px;
+}
+.bclass{
+    text-align: center;
+    margin-top: 30px;
+}
+
+blockquote{
+    line-height: 1.3;
+    letter-spacing: 1.2;
+    padding: 25px;
+    width: 95%;
+    height: 95%;
+}
+button{
+    border:none;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgba(60, 60, 70, 0.712);
+box-shadow: 2px -2px 10px;
+    padding: 7px;
+    margin: 15px auto;
+    background: #A0D7DD;
+background: -webkit-radial-gradient(top left, #A0D7DD, #54B3D7);
+background: -moz-radial-gradient(top left, #A0D7DD, #54B3D7);
+background: radial-gradient(to bottom right, #A0D7DD, #54B3D7);
+border-radius: 15px;
+transition: all 2s;
+}
+
+button:hover{
+    color: rgb(77, 70, 179);
+    box-shadow: 3px -3px 11px;
+    color: #fff;
+}
+button:active{
+    background-color: yellow;
+}
+
